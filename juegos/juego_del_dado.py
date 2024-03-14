@@ -14,7 +14,7 @@ def juego_del_dado():
         # El jugador recibe puntos
         puntos_jugador += randint(1, 6)
         puntos_cpu += randint (1, 6)
-        print(f'Puntos jugador: {puntos_cpu} \n Puntos CPU: {puntos_cpu}')
+        print(f'Puntos jugador: {puntos_jugador} \n Puntos CPU: {puntos_cpu}')
         
     if puntos_jugador >= 30:
         print('Jugador Gana')
