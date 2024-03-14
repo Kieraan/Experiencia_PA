@@ -9,17 +9,17 @@ def juego_del_dado():
     """
     puntos_jugador = 0
     puntos_cpu = 0
-    while (puntos_jugador and puntos_cpu) < 30:
+    while  not (puntos_jugador or puntos_cpu) >= 30:
         input('Presione enter')
         # El jugador recibe puntos
         puntos_jugador += randint(1, 6)
         puntos_cpu += randint (1, 6)
         print(f'Puntos jugador: {puntos_jugador} \n Puntos CPU: {puntos_cpu}')
-        
+             
     if puntos_jugador >= 30:
         print('Jugador Gana')
-    
-    elif puntos_cpu >= 30:
-        print('CPU gana')
         
+    elif puntos_cpu >= 30:
+        print('CPU gana')     
+   
     return
