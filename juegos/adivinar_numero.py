@@ -8,7 +8,7 @@ def adivinar_numero():
     """
     numero_aleatorio = randint(1,10)
     seleccion = int(input('Seleccione un número entre 1 y 10: '))
-    if numero_aleatorio == seleccion:0
+    if numero_aleatorio == seleccion:
         print(f'El número escogido es correcto: {seleccion}')
         
     else:
