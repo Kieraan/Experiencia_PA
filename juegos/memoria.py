@@ -51,4 +51,3 @@ def memoria():
     else:
         print("perdiste el juego. JUEGA DE NUEVO")
         memoria()    
-memoria()
