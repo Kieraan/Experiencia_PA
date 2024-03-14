@@ -38,6 +38,5 @@ def adivinar_par_o_impar():
             adivinar_par_o_impar()
 
 
-adivinar_par_o_impar()
 
     
