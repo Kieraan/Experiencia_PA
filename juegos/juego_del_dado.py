@@ -19,7 +19,7 @@ def juego_del_dado():
     if puntos_jugador >= 30:
         print('Jugador Gana')
     
-    else:
+    elif puntos_cpu >= 30:
         print('CPU gana')
         
     return
