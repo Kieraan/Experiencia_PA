@@ -7,12 +7,11 @@ def adivinar_numero():
     Se debe mostrar un mensaje si el usuario adivina correctamente o no.
     """
     numero_aleatorio = randint(1,10)
-    seleccion = int(input('Seleccione un número entre 1 y 10'))
-    if numero_aleatorio == seleccion:
+    seleccion = int(input('Seleccione un número entre 1 y 10: '))
+    if numero_aleatorio == seleccion:0
         print(f'El número escogido es correcto: {seleccion}')
         
     else:
         print('El número escogido es incorrecto')
     
     return 
-
